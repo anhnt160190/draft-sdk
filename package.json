@@ -1,8 +1,9 @@
 {
-  "name": "sdk-draft",
+  "name": "hugo-sdk",
   "version": "1.0.0",
   "description": "Example npm Sdk",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "lint": "eslint \"{src,test}/**/*.ts\" --fix",
     "build": "tsc -b",
