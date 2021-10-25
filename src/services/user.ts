@@ -21,7 +21,6 @@ export class UserService extends BaseService {
       });
       return this.makeFriendLyResponse(response);
     } catch (error) {
-      this.logger.error(error);
       return this.makeErrorFriendLyResponse(error);
     }
   }
